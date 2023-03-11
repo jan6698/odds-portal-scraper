@@ -6,6 +6,7 @@ Logic for the overall Odds Portal scraping utility focused on crawling
 """
 
 
+from selenium.webdriver.common.by import By
 from .models import Season
 from pyquery import PyQuery as pyquery
 from selenium import webdriver
@@ -49,7 +50,7 @@ class Crawler(object):
         self.driver.get(link)
         try:
             # If no Login button, page not found
-            self.driver.find_element_by_css_selector('.button-dark')
+            self.driver.find_element(By.CSS_SELECTOR,'loginModalBtn')
         except NoSuchElementException:
             logger.warning('Problem with link, could not find Login button - %s', link)
             return False
