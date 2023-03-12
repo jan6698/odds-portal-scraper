@@ -5,7 +5,6 @@ Logic for the overall Odds Portal scraping utility focused on crawling
 
 """
 
-
 from selenium.webdriver.common.by import By
 from .models import Season
 from pyquery import PyQuery as pyquery
