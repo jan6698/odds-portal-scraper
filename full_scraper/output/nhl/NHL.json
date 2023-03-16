@@ -1,0 +1,1 @@
+{"name": "NHL", "sport": "hockey", "region": "usa", "output_dir": "nhl", "outcomes": 3, "league": {"name": "nhl", "seasons": [], "root_url": "https://www.oddsportal.com/hockey/usa/nhl/results/"}}
