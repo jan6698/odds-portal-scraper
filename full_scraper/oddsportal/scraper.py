@@ -55,7 +55,7 @@ class Scraper(object):
         self.driver.get(link)
         try:
             # if no Login button -> page not found
-            self.driver.find_element_by_css_selector('.button-dark')
+            self.driver.find_element_by_xpath('/html/body/div[1]/div/header/div[2]/div[5]/div[1]')
         except NoSuchElementException:
             logger.warning('Problem with link, could not find Login button - %s', link)
             return False
