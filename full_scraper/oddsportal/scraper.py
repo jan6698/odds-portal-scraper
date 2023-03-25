@@ -41,7 +41,7 @@ class Scraper(object):
         if wait_on_page_load == None:
             self.wait_on_page_load = 3
         self.options = webdriver.ChromeOptions()
-        self.options.add_argument('headless')
+        #self.options.add_argument('headless')
         self.driver = webdriver.Chrome('./chromedriver/chromedriver', chrome_options=self.options)
         logger.info('Chrome browser opened in headless mode')
         

@@ -1,0 +1,1 @@
+{"name": "NFL", "sport": "american-football", "region": "usa", "output_dir": "nfl", "outcomes": 2, "league": {"name": "nfl", "seasons": [], "root_url": "https://www.oddsportal.com/american-football/usa/nfl/results/"}}

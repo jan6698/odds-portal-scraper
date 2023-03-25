@@ -18,13 +18,13 @@ import time
 
 #######################################################################################################################
 
-TARGET_SPORTS_FILE = 'config/sports.json'
+TARGET_SPORTS_FILE = 'full_scraper/config/sports.json'
 OUTPUT_DIRECTORY_PATH = 'output'
 
 #######################################################################################################################
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', \
-                    handlers=[ logging.FileHandler('logs/oddsportal_' + str(int(time.time())) + '.log'),\
+                    handlers=[ logging.FileHandler('full_scraper/logs/oddsportal_' + str(int(time.time())) + '.log'),\
                                logging.StreamHandler() ])
 logger = logging.getLogger('oddsportal')
 
