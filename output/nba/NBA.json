@@ -1,0 +1,1 @@
+{"name": "NBA", "sport": "basketball", "region": "usa", "output_dir": "nba", "outcomes": 2, "league": {"name": "nba", "seasons": [], "root_url": "https://www.oddsportal.com/basketball/usa/nba/results/"}}
